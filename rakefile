@@ -1,0 +1,7 @@
+require 'rake/compiler'
+require 'rake', '~> 13.0'  # Adjust version as needed
+
+Rake::Compiler.new do |compiler|
+  compiler.file_name = 'contactx'
+  compiler.source_exts = %w[.rb]
+end
